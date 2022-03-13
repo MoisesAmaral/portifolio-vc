@@ -9,6 +9,7 @@ import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import Nav from './components/nav/Nav'
 import Services from './components/services/Services'
+import Portfolio from './components/portfolio/Portfolio'
 
 
 
@@ -20,6 +21,7 @@ const App = () => {
     <About />
     <Experience />
     <Services />
+    <Portfolio />
     <Testimonials />
     <Contact />
     <Footer />
