@@ -10,11 +10,13 @@ import emailjs from 'emailjs-com';
 const Contact = () => {
   const form = useRef();
 
+//Send Email
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs.sendForm('service_ygwz8rj', 'template_7ydx43d', form.current, 'T8vahxIa8t9uqIx90')
      
+    //rest no form
       e.target.reset()
   };
 
