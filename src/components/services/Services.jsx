@@ -16,24 +16,17 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>creating web layouts</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>user experience</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>responsive designer</p>
             </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
+            
            {/*END OF UI/UX*/}
           </ul>
         </article>
@@ -45,28 +38,21 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>web interface development.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>RestFul API consumption.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>modern development, focused on results.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>user experience, focused on agility.</p>
             </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
+            
             
            {/*END OF Web Development*/}
           </ul>
@@ -79,24 +65,21 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Content creation for the web.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>from Instagram</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>from facebook.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>for other social networks.</p>
             </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
+           
            
            {/*END OF Content Creantion*/}
           </ul>

@@ -38,22 +38,23 @@ const Contact = () => {
             <RiMessengerLine className='contact__option-icon'/>
             <h4>Messeger</h4>
             <h5>MoisesDev- developer</h5>
-            <a href="https://m.me/sistemasblu"target='_blank'>Send a message</a>
+            <a href="https://www.instagram.com/moisesdevops/"target='_blank'>Send a message</a>
           </article>
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
             <h5>+5531998268940</h5>
-            <a href="https://api.whatsapp.com/send?phone=+5531998268940"target='_blank'>Send a message</a>
+            <a href="https://wa.me/+553198268940"target='_blank'>Send a message</a>
           </article>
         </div>
         {/*END CONTACT OPTIONS*/}
-        <form ref={form} onSubmit={sendEmail}>
+        <form ref={form} onSubmit={sendEmail}>          
           <input type="text" name='name' placeholder='You Full Name' required />
           <input type="email" name='email' placeholder='Your Email'required />
           <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
           <button type="submit" className='btn btn-primary'>Send Message</button>
         </form>
+       
       </div>
     </section>
   )

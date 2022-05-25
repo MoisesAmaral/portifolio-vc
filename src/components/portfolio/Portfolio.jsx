@@ -1,42 +1,42 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
+import IMG1 from '../../assets/portfolio1.png'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+//import IMG5 from '../../assets/portfolio5.png'
+//import IMG6 from '../../assets/portfolio6.jpg'
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'This is a portfolio item title',
-    github: 'https://github.com',
-    demo: '#'
+    title: 'Pokédex development',
+    github: 'https://github.com/MoisesAmaral/pokedex',
+    demo: 'https://pokedex-card.vercel.app/'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'This is a portfolio item title',
-    github: 'https://github.com',
-    demo: '#'
+    title: 'landing page of a digital bank',
+    github: 'https://github.com/MoisesAmaral/bankDigital',
+    demo: 'https://bank-digital.vercel.app/'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'This is a portfolio item title',
-    github: 'https://github.com',
-    demo: '#'
+    title: 'Developing an App with JavaScript pure, Game Kills Mosquito',
+    github: 'https://github.com/MoisesAmaral/APP-GAME-KILL-Fly',
+    demo: 'https://app-kill-mosquito.vercel.app/'
   },
-  {
+   /*{
     id: 4,
     image: IMG4,
-    title: 'This is a portfolio item title',
+    title: 'to-do list with React ',
     github: 'https://github.com',
     demo: '#'
   },
-  {
+ {
     id: 5,
     image: IMG5,
     title: 'This is a portfolio item title',
@@ -49,7 +49,7 @@ const data = [
     title: 'This is a portfolio item title',
     github: 'https://github.com',
     demo: '#'
-  },
+  }*/,
 ]
 
 const Portfolio = () => {

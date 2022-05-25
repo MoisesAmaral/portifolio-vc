@@ -27,7 +27,8 @@ header {
     gap: 0.8rem;
     position: absolute;
     left: 0;
-    bottom: 3rem;    
+    bottom: 3rem;
+    font-size: 1.4rem;
 }
 
 .header__socials::after{
@@ -50,6 +51,27 @@ header {
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
+.me img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    /*animation: MoveUpDown 4s linear infinite;*/
+}
+/*
+@keyframes MoveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-50px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+*/
+
 /* ============== SCROLL DOWN =================*/
 .scroll__down{
     position: absolute;
@@ -57,14 +79,14 @@ header {
     right: -2.3rem;
     transform: rotate(90deg);
     font-weight: 300;
-    font-size: 0.9rem;
+    font-size: 1.4rem;
 }
 
 /* ========= MEDIA QUERIES (MEDIUM DEVICES) =========== */
 
 @media screen and (max-width: 1024px){
     header{
-        height: 68vh;
+        height: 88vh;
     }
     
 }

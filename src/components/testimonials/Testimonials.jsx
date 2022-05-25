@@ -2,8 +2,7 @@ import React from 'react'
 import './testimonials.css'
 import AVTR1 from '../../assets/avatar1.jpg'
 import AVTR2 from '../../assets/avatar2.jpg'
-import AVTR3 from '../../assets/avatar3.jpg'
-import AVTR4 from '../../assets/avatar4.jpg'
+
 
 // import Swiper core and required modules
 import {Pagination} from 'swiper';
@@ -19,31 +18,14 @@ const data = [
   {
     avatar: AVTR1,
     name: 'Fernanda Silva',
-    review: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab suscipit vero deleniti facere
-    uas asperiores perferendis aspernatur modi vel, dolorem pariatur? Quasi in 
-    sapiente totamnesciunt doloribus accusamus corporis eaque?`
+    review: `A good professional, fulfills what he promises, delivers the demands on time!!`
   },
   {
     avatar: AVTR2,
-    name: 'John Doe',
-    review: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab suscipit vero deleniti facere
-    uas asperiores perferendis aspernatur modi vel, dolorem pariatur? Quasi in 
-    sapiente totamnesciunt doloribus accusamus corporis eaque?`
-  },
-  {
-    avatar: AVTR3,
-    name: 'Luiz Arthur',
-    review: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab suscipit vero deleniti facere
-    uas asperiores perferendis aspernatur modi vel, dolorem pariatur? Quasi in 
-    sapiente totamnesciunt doloribus accusamus corporis eaque?`
-  },
-  {
-    avatar: AVTR4,
-    name: 'Amanda Souza',
-    review: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab suscipit vero deleniti facere
-    uas asperiores perferendis aspernatur modi vel, dolorem pariatur? Quasi in 
-    sapiente totamnesciunt doloribus accusamus corporis eaque?`
-  }
+    name: 'Josué Alves',
+    review: `I really enjoyed being able to share some moments of work with Moises, a great professional`
+  }, 
+  
 ]
 const Testimonials = () => {
   return (

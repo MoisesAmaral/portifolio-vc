@@ -10,6 +10,7 @@
     text-decoration: none;
 }
 :root{
+    --color-bg-primary: #0e091b;
     --color-bg: #1f1f38;
     --color-bg-variant:#2c2c6c;
     --color-primary: #4db5ff;
@@ -33,10 +34,10 @@ html{
 
 body{
     font-family: 'Poppins', sans-serif;
-    background: var(--color-bg);
+    background: var(--color-bg-primary);
     color: var(--color-white);
     line-height:1.7;
-    background-image: url(../src/assets/bg-texture.png);
+   /* background-image: url(../src/assets/bg-texture.png); */
 }
 
 /* ================GENEARL SYTLES ===================*/
@@ -124,6 +125,5 @@ img{
         margin-bottom: 2rem;
     }
 }
-
 
 

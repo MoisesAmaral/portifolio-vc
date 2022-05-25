@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import ME from '../../assets/me.png'
+import ME from '../../assets/me2.png'
 import HeaderSocials from './HeaderSocials'
 
 const Header = () => {
@@ -11,7 +11,7 @@ const Header = () => {
          <h5>Hello I'm</h5>
          <h1>Moises Amaral</h1>
          <h5 className="text-light">
-           Fulstack Developer
+           Frontend developer
          </h5>
          <CTA />
          <HeaderSocials />
